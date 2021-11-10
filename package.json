@@ -1,0 +1,28 @@
+{
+    "name": "patternlab-plugin-darkmode",
+    "version": "1.0.0",
+    "description": "A PatternLab plugin to toggle dark mode in your pattern CSS. Works with Tailwind or any CSS based on a body class.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brotkel/patternlab-darkmode.git"
+    },
+    "scripts": {
+        "lint": "eslint dist/js/plugin-darkmode.js index.js postinstall.js",
+        "postinstall": "node ./postinstall.js"
+    },
+    "author": "Brandon Rotkel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/brotkel/patternlab-darkmode/issues"
+    },
+    "homepage": "https://github.com/brotkel/patternlab-darkmode",
+    "devDependencies": {
+        "eslint": "^8.2.0"
+    },
+    "dependencies": {
+        "fs-extra": "^10.0.0",
+        "glob": "^7.2.0",
+        "lodash": "^4.17.21"
+    }
+}
