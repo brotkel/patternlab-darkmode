@@ -6,7 +6,7 @@ The configuration options are easy, but should be versatile enough to use with m
 
 ## Installation
 
-> As far as I can tell, this functionality is no longer supported by Pattern Lab, or at least I couldn't get it to work with any plugins I tried. I'm leaving it here for legacy purposes.
+
 
 To add the UI Extension Plugin to your project using [npm](https://www.npmjs.com/) type:
 
@@ -14,19 +14,21 @@ To add the UI Extension Plugin to your project using [npm](https://www.npmjs.com
 
 Or add it directly to your project's `package.json` file and run `npm install`
 
+> As far as I can tell, the next big of functionality is no longer supported by Pattern Lab, or at least I couldn't get it to work with any plugins I tried. I'm leaving it here for legacy purposes.
+
 During installation, the plugin is added as a key to the `plugins` object in your main Pattern Lab project's `patternlab-config.json` file
 
 > If you don't see this object, manually add it as per the example below.
 
 ## Configuration
 
-ost-installation, you will see the following in your `patternlab-config.json`:
+Post-installation, you will see the following in your `patternlab-config.json`:
 
 Example:
 
 ``` json
 "plugins": {
-  "@mfranzke/plugin-node-uiextension": {
+  "patternlab-plugin-darkmode": {
     "enabled": true,
     "initialized": false,
     "options": {

@@ -1,6 +1,6 @@
 {
     "name": "patternlab-plugin-darkmode",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A PatternLab plugin to toggle dark mode in your pattern CSS. Works with Tailwind or any CSS based on a body class.",
     "main": "index.js",
     "repository": {
