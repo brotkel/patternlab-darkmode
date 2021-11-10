@@ -8,7 +8,7 @@
         "url": "https://github.com/brotkel/patternlab-darkmode.git"
     },
     "scripts": {
-        "lint": "eslint dist/js/plugin-darkmode.js index.js postinstall.js",
+        "lint": "eslint dist/js/patternlab-plugin-darkmode.js index.js postinstall.js",
         "postinstall": "node ./postinstall.js"
     },
     "author": "Brandon Rotkel",
