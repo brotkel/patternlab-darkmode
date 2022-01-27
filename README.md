@@ -33,7 +33,7 @@ Example:
     "initialized": false,
     "options": {
       "className": "dark-mode",
-      "targetElement": "body",
+      "targetElement": "body"
     }
   }
 }
